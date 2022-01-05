@@ -5,7 +5,7 @@ const httpService = axios.create({
     process.env.NODE_ENV === 'development'
       ? process.env.REACT_APP_BASE_URL_LOCAL
       : process.env.REACT_APP_BASE_URL_PRODUCTION,
-  timeout: 10000,
+  timeout: 30000,
 })
 
 httpService.interceptors.response.use(
