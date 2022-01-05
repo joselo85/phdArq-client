@@ -1,0 +1,17 @@
+.textBox {
+  position: absolute;
+  top: 100px;
+  left: 60%;
+  background-color: rgba(22, 24, 25, 0.2);
+}
+.textBox > h1 {
+  font-family: 'Poppins';
+  font-size: 40px;
+  color: white;
+  margin-bottom: 0;
+}
+.textBox > p {
+  font-family: 'Montserrat', sans-serif;
+  color: #c0392b;
+  font-size: 1.25em;
+}
