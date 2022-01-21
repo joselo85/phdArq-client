@@ -5,7 +5,7 @@ import { getAllProjects } from '../../services/projectsService'
 import ProjectCard from './ProjectCard'
 import SpinnerComp from '../spinner/SpinnerComp'
 
-const ListActivities = () => {
+const Projects = () => {
   const [allProjects, setAllProjects] = useState([])
   const [loading, setLoading] = useState(false)
 
@@ -65,4 +65,4 @@ const ListActivities = () => {
   )
 }
 
-export default ListActivities
+export default Projects
